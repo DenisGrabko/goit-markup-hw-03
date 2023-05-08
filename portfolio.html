@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
@@ -15,43 +19,45 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header container">
-      <nav class="navigation">
-        <a class="navigation-logo-web logo link" href="./index.html">
-          Web<span class="navigation-logo-studio">Studio</span>
-        </a>
-        <div class="navigation-list-content">
-          <ul class="navigation-list list">
+    <header>
+      <div class="header-div container">
+        <nav class="navigation">
+          <a class="navigation-logo-web logo link" href="./index.html">
+            Web<span class="navigation-logo-studio">Studio</span>
+          </a>
+          <div class="navigation-list-content">
+            <ul class="navigation-list list">
+              <li>
+                <a class="navigation-item link" href="./index.html">Studio</a>
+              </li>
+              <!-- current disable -->
+              <li>
+                <a class="navigation-item link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="navigation-item link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <address class="contact">
+          <ul class="contact-list list">
             <li>
-              <a class="navigation-item link" href="./index.html">Studio</a>
-            </li>
-            <!-- current disable -->
-            <li>
-              <a class="navigation-item link" href="./portfolio.html"
-                >Portfolio</a
+              <a class="contact-item-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="navigation-item link" href="">Contacts</a>
+              <a class="contact-item-phone link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
-        </div>
-      </nav>
-
-      <address class="contact">
-        <ul class="contact-list list">
-          <li>
-            <a class="contact-item-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-item-phone link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        </address>
+      </div>
     </header>
 
     <main>
