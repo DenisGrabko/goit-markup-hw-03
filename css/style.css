@@ -86,9 +86,11 @@ ol {
 }
 
 /* STUDIO */
+.header{
+    border-bottom: 1px solid var(--color-border-bottom-header);
+}
 .header-div {
-    display: flex;
-    border-bottom: 1px solid var(--color-border-bottom-header); 
+    display: flex;     
     align-items: center;   
     width: 1158px;
     height: 72px;
@@ -139,17 +141,16 @@ ol {
     flex-direction: row;
     align-items: flex-start;    
     gap: 40px;
-}
-
-.navigation-list-content {
-    display: block;
     margin-top: 24px;
     margin-right: 332px;
 }
 
+
+
 .navigation-item {
     font-weight: 500;
     font-size: 16px;
+    padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text-main);
