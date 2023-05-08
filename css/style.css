@@ -149,11 +149,14 @@ ol {
 
 .navigation-item {
     font-weight: 500;
-    font-size: 16px;
-    padding: 24px 0;
+    font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text-main);
+}
+
+.navigation-item-link {
+    padding: 24px 0;
 }
 
 
@@ -169,6 +172,7 @@ ol {
 
 .contact-list {
     display: flex;
+    gap: 40px;
 }
 
 
@@ -190,6 +194,21 @@ ol {
     color: var(--color-contact-hover-focus);
 }
 
+.contact-item-mail {    
+    display: block;
+    width: 153px;
+    height: 24px;
+    margin-top: 24px;    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: var(--color-contact-item-mail);
+}
 .contact-item-phone {
     display: block;
     margin-top: 24px;
@@ -206,20 +225,6 @@ ol {
     color: var(--color-text-secondary);
 }
 
-.contact-item-mail {
-    display: block;
-    margin-top: 24px;
-    margin-right: 40px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-
-    color: var(--color-contact-item-mail);
-}
 
 /* hero */
 
