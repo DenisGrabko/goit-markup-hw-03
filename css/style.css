@@ -675,28 +675,28 @@ ol {
 /* footer */
 .footer {
 
-    width: 1188px;
+    width: 1158px;
     height: 312px;
-
+    
     background: var(--color-background-footer);
 
 }
 
 .footer-box-logo-text {
-    width: 264px;
-    height: 112px;
-    padding: 100px 1020px 100px 0px;
+    width: 1158px;
+    height: 112px;    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    
 }
 
 .footer-logo-web {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
+    margin-bottom: 16px;    
     width: 115px;
     height: 24px;
-
 }
 
 .footer-logo-studio-invert {
@@ -707,6 +707,7 @@ ol {
     display: flex;
     width: 264px;
     height: 72px;
+    margin: 0;    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
