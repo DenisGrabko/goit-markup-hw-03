@@ -231,6 +231,7 @@ ol {
 .hero {
     background: var(--color-background-hero);
     text-align: center;
+    padding: 188px 0;
     width: 1440px;
     height: 600px;
 }
@@ -240,7 +241,8 @@ ol {
     height: 120px;    
     font-family: "Roboto", sans-serif;
     font-style: normal;
-
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -249,13 +251,10 @@ ol {
     color: var(--color-text-hero-title);
 }
 
-.align-hero-title-button {
-   
-    padding: 188px 0;    
-}
-
 .hero-button {
-    display: flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
     flex-direction: row;
     align-items: flex-start;
     margin-top: 48px;
@@ -273,6 +272,7 @@ ol {
     border-radius: 4px;
     cursor: pointer;
     gap: 10px;
+    border: none;
 }
 
 .hero-button:hover,
