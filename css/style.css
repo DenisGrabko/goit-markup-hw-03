@@ -677,7 +677,7 @@ ol {
 
     width: 1158px;
     height: 312px;
-    
+    padding: 100px, 0px;
     background: var(--color-background-footer);
 
 }
