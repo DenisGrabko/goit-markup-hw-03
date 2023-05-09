@@ -232,7 +232,7 @@ ol {
     background: var(--color-background-hero);
     text-align: center;
     padding: 188px 0;
-    width: 1440px;
+    width: 1158px;
     height: 600px;
 }
 
@@ -285,13 +285,9 @@ ol {
 .features {
     width: 1158px;
     height: 344px;
+    padding: 120px 0;
 }
 
-.align-features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-}
 
 .features-list {
     display: flex;
@@ -310,7 +306,7 @@ ol {
     height: 104px;
     padding: 0px;
     align-items: flex-start;
-    gap: 8px;
+    gap: 8px;    
 }
 
 .features-subtitle {
@@ -321,6 +317,7 @@ ol {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--color-text-main);
 }
