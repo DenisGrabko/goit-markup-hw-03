@@ -518,8 +518,9 @@ ol {
     width: 586px;
     height: 48px;
     align-items: flex-start;
-    flex-direction: row;    
-    padding-bottom: 72px;
+    flex-direction: row;
+    justify-content: center;    
+    margin-bottom: 72px;
     margin-right: auto;
     margin-left: auto;
     gap: 24px;
@@ -547,11 +548,12 @@ ol {
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.works-list>li {
-    border: 1px solid var(--color-border-work-cards);
-    display: inline-block;
-    text-align: left;
-    gap: 44px;
+.works-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    border: 1px solid var(--color-border-work-cards);    
 }
 
 
