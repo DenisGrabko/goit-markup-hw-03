@@ -402,7 +402,7 @@ ol {
 }
 
 .team-title {
-    display: block;
+    display: flex;
     width: 162px;
     height: 40px;
     font-family: 'Roboto';
@@ -411,10 +411,11 @@ ol {
     font-size: 36px;
     line-height: 40px;
     text-align: center;
-    letter-spacing: 0.02em;
-    padding-top: 120px;
+    letter-spacing: 0.02em;    
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 72px;
+    gap: 24px;
     color: var(--color-team-title);
     white-space: nowrap;
 }
@@ -424,8 +425,7 @@ ol {
     display: flex;
     flex-direction: row;
     width: 1128px;
-    height: 380px;
-    padding-top: 112px;
+    height: 380px;    
     margin-right: auto;
     margin-left: auto;
     gap: 24px;
@@ -449,8 +449,8 @@ ol {
 
 }
 
-.team-item div {
-    padding: 32px 16px 32px 16px;
+.team-item-container{
+    padding: 32px 16px;
 }
 
 .team-name {
@@ -464,6 +464,7 @@ ol {
     line-height: 24px;
 
     text-align: center;
+    margin-bottom: 8px;
     letter-spacing: 0.02em;
     white-space: nowrap;
 
