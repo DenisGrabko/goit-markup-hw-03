@@ -362,28 +362,31 @@ ol {
     height: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
+    text-align: center;    
     letter-spacing: 0.02em;
     white-space: nowrap;
+    color: var(--color-text-secondary-title);
 }
 
 .specialization-list {
-    display: flex;
-    margin-top: 72px;
+    display: flex;    
     gap: 24px;
 }
 
 .specialization-list li img {
     display: block;
     border: 1px var(--color-border-specialization-item);
+}
 
-
+.specialization-item {
+    width: calc((100%-48px)/3);
 }
 
 
