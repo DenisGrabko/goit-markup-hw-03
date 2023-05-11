@@ -556,10 +556,7 @@ ol {
 
 
 .work-div-subtitle-text{       
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding :32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     text-align: left;
