@@ -553,9 +553,7 @@ ol {
     row-gap: 48px;
     border: 1px solid var(--color-border-work-cards);    
 }
-.work-list > li {
-width: calc((100% - 48px) / 3);
-}
+
 
 .work-div-subtitle-text{
     display: flex;
