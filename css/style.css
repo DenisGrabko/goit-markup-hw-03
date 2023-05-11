@@ -548,7 +548,7 @@ ol {
 .works-list{
     display: flex;
     flex-wrap: wrap; 
-    width: 1128px;       
+    width: 1158px;       
     column-gap: 24px;
     row-gap: 48px;
     border: 1px solid var(--color-border-work-cards);    
@@ -617,7 +617,7 @@ ol {
 
 .work-item-fourth {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;
     margin-bottom: 48px;
     background: var(--color-background-portfolio-items);
@@ -626,7 +626,7 @@ ol {
 
 .work-item-fifth {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;    
     background: var(--color-background-portfolio-items);
     border: 1px solid var(--color-backdround-portfolio-border);
@@ -634,7 +634,7 @@ ol {
 
 .work-item-sixth {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;
 
     background: var(--color-background-portfolio-items);
@@ -643,7 +643,7 @@ ol {
 
 .work-item-seventh {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;
     margin-bottom: 120px;
     background: var(--color-background-portfolio-items);
@@ -652,7 +652,7 @@ ol {
 
 .work-item-eights {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;    
     background: var(--color-background-portfolio-items);
     border: 1px solid var(--color-backdround-portfolio-border);
@@ -660,7 +660,7 @@ ol {
 
 .work-item-nineth {
     box-sizing: border-box;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     height: 420px;
 
     background: var(--color-background-portfolio-items);
