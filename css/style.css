@@ -569,6 +569,7 @@ ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--color-text-main);
 }
 
@@ -586,7 +587,9 @@ ol {
 .work-item-first {
     box-sizing: border-box;
     width: calc((100% - 48px) / 3);    
-    background: var(--color-background-portfolio-items);    
+    background: var(--color-background-portfolio-items);
+    border: 1px solid #e7e9fc;    
+    border-top: none;    
 }
 
 .work-item-second {
