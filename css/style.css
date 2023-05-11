@@ -547,7 +547,8 @@ ol {
 
 .works-list{
     display: flex;
-    flex-wrap: wrap;        
+    flex-wrap: wrap; 
+    width: 1128px;       
     column-gap: 24px;
     row-gap: 48px;
     border: 1px solid var(--color-border-work-cards);    
@@ -557,7 +558,7 @@ ol {
 .work-div-subtitle-text{
     display: flex;
     box-sizing: content-box;
-    
+    width: 360px;
     height: 56px;
     padding: 32px 16px;   
     align-items: flex-start;
