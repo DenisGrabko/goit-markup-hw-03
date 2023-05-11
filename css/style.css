@@ -584,64 +584,11 @@ ol {
 }
 
 
-.work-item-first {
+.work-item{
     box-sizing: border-box;
     width: calc((100% - 48px) / 3);    
     background: var(--color-background-portfolio-items);       
 }
-
-.work-item-second {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);    
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-third {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-fourth {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-
-    margin-bottom: 48px;
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-fifth {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);    
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-sixth {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-seventh {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-    margin-bottom: 120px;
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-eights {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);    
-    background: var(--color-background-portfolio-items);    
-}
-
-.work-item-nineth {
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-    background: var(--color-background-portfolio-items); 
-}
-
-
 
 
 /* footer */
