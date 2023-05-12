@@ -1,5 +1,5 @@
 :root {
-    --color-text-main: #2e2f42;
+    --color-text-main: #2E2F42;
     --color-text-secondary: #434455;
     --color-text-hero-title: #ffffff;
     --color-text-secondary-title: #2e2f42;
@@ -77,7 +77,7 @@ ol {
 }
 
 .container {
-    width: 1188px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -91,10 +91,9 @@ ol {
 .header-div {
     display: flex;     
     align-items: center;   
-    width: 1158px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+    width: 1158px;        
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation {
@@ -109,9 +108,7 @@ ol {
 
 .logo {
     display: block;
-    width: 115px;
-    height: 24px;
-    margin-top: 24px;
+    width: 115px;        
     margin-right: 76px;
     margin-left: 0px;
     text-transform: uppercase;
@@ -137,10 +134,8 @@ ol {
 
 .navigation-list {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;    
-    gap: 40px;
-    margin-top: 24px;
+    flex-direction: row;        
+    gap: 40px;        
     margin-right: 332px;
 }
 
@@ -159,8 +154,8 @@ ol {
 }
 
 
-.navigation-item:hover,
-.navigation-item:focus {
+.navigation-item-link:hover,
+.navigation-item-link:focus {
     color: var(--color-navigation-hover-focus);
 }
 
@@ -169,8 +164,9 @@ ol {
     font-style: normal;
 }
 
-.contact-list {
+.contact-list {    
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -194,27 +190,18 @@ ol {
 }
 
 .contact-item-mail {    
-    display: block;
-    width: 153px;
-    height: 24px;
-    margin-top: 24px;    
-
+    display: block;    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-
     color: var(--color-contact-item-mail);
 }
 .contact-item-phone {
     display: block;
-    margin-top: 24px;
-    margin-right: 0px;
-    width: 151px;
-    height: 24px;
-
+    margin-right: 0px;    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -230,9 +217,7 @@ ol {
 .hero {
     background: var(--color-background-hero);
     text-align: center;
-    padding: 188px 0;
-    width: 1158px;
-    height: 600px;
+    padding: 188px 0;   
 }
 
 .hero-title {
@@ -290,8 +275,7 @@ ol {
 
 .features-list {
     display: flex;
-    width: 1128px;
-    height: 104px;
+    width: 1128px;    
     margin-left: auto;
     margin-right: auto;
     gap: 24px;
@@ -301,16 +285,13 @@ ol {
 .features-item {
     display: flex;
     flex-direction: column;
-    width: 264px;
-    height: 104px;
+    width: 264px;    
     padding: 0px;
-    align-items: flex-start;
-    gap: 8px;    
+    align-items: flex-start;       
 }
 
 .features-subtitle {
-    width: 264px;
-    height: 24px;
+    width: 264px;    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -322,18 +303,15 @@ ol {
 }
 
 .features-text {
-    width: 264px;
-    height: 72px;
+    width: 264px;    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--color-feature-text);
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin: 0;
+    color: var(--color-feature-text);    
 }
 
 /* secondary-title */
@@ -393,17 +371,12 @@ ol {
 
 /* team */
 
-.team {
-    width: 1158px;
-    height: 732px;
+.team {    
     padding: 120px 0;
     background-color: var(--color-background-team);
 }
 
-.team-title {
-    display: flex;
-    width: 162px;
-    height: 40px;
+.team-title {          
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -411,8 +384,6 @@ ol {
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;    
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 72px;
     gap: 24px;
     color: var(--color-team-title);
@@ -423,8 +394,7 @@ ol {
 .team-list {
     display: flex;
     flex-direction: row;
-    width: 1128px;
-    height: 380px;    
+    width: 1128px;       
     margin-right: auto;
     margin-left: auto;
     gap: 24px;
@@ -433,10 +403,8 @@ ol {
 .team-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 120px;
-    width: 264px;
-    height: 380px;
+    align-items: center;    
+    width: 264px;    
     background: var(--color-team-item);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -445,46 +413,35 @@ ol {
 .team-img {
     width: 264px;
     height: 260px;
-
 }
 
 .team-item-container{
     padding: 32px 16px;
 }
 
-.team-name {
-    width: 134px;
-    height: 24px;
-
+.team-name {       
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     text-align: center;
     margin-bottom: 8px;
     letter-spacing: 0.02em;
     white-space: nowrap;
-
     color: #2E2F42;
 }
 
-.team-position {
-    width: 128px;
-    height: 24px;
-
+.team-position {    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     text-align: center;
+    margin: 0;
     letter-spacing: 0.02em;
-
-    color: #434455;
-
+    color: #434455;    
     white-space: nowrap;
 }
 
@@ -514,9 +471,7 @@ ol {
 }
 
 .works-filter-list {
-    display: flex;
-    width: 586px;
-    height: 48px;    
+    display: flex;       
     flex-direction: row;
     justify-content: center;    
     margin-bottom: 72px;
@@ -547,8 +502,7 @@ ol {
 
 .works-list{
     display: flex;
-    flex-wrap: wrap;    
-    width: 1128px;       
+    flex-wrap: wrap;          
     column-gap: 24px;
     row-gap: 48px;
       
@@ -589,22 +543,20 @@ ol {
     width: calc((100% - 48px) / 3);    
     background: var(--color-background-portfolio-items);       
 }
+.work-item img{
+    width: 100%;
+}
 
 
 /* footer */
-.footer {
-    width: 1158px;
-    height: 312px;
+.footer {    
     padding: 100px 0;
     background: var(--color-background-footer);
 }
 
 .footer-box-logo-text {
     width: 1158px;
-    height: 112px;    
-    
-   
-    
+    height: 112px;   
 }
 
 .footer-logo-web {
